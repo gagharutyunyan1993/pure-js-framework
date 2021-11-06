@@ -1,4 +1,4 @@
-import {router, WFMComponent} from "../../main";
+import {router, WFMComponent} from "main";
 
 class HomePageComponent extends WFMComponent {
     constructor(config) {
@@ -9,14 +9,6 @@ class HomePageComponent extends WFMComponent {
         return {
             'click .js-link': 'goToTabs'
         }
-    }
-
-    onInit() {
-        console.log('component init');
-    }
-
-    afterInit() {
-        console.log('component after init');
     }
 
     goToTabs(event) {

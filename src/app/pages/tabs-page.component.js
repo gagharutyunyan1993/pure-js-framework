@@ -1,4 +1,4 @@
-import {WFMComponent} from "../../main";
+import {WFMComponent} from "main";
 
 class TabsPageComponent extends WFMComponent{
     constructor(config) {

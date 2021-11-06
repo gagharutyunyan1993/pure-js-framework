@@ -18,6 +18,12 @@ module.exports = {
         port: 4200
     },
 
+    resolve: {
+        alias: {
+            'main': path.join(__dirname, 'src/main')
+        }
+    },
+
     plugins: [
         new HtmlWebpackPlugin({
             template: "./index.html"
