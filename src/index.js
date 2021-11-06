@@ -1,4 +1,7 @@
 import {bootstrap} from "./main";
 import {appModule} from "./app/app.module";
+import { wfm } from "./main";
 
-bootstrap(appModule);
+wfm.delay(2000).then(() => {
+    bootstrap(appModule);
+});
